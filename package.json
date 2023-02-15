@@ -47,6 +47,7 @@
       "eslint --fix"
     ],
     "*.vue": [
+      "prettier --write",
       "eslint --fix"
     ],
     "*.{less,css}": [
