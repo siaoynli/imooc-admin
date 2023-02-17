@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 const publicRoutes = [
   {
     path: '/login',
-    component: () => import('@/views/login/LoginIndex.vue')
+    component: () => import('@/views/login/index.vue')
   }
 ]
 
