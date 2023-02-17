@@ -18,7 +18,7 @@ module.exports = {
   ],
 
   scopes: [
-    { name: 'api' },
+    { name: 'empty' },
     { name: 'lang' },
     { name: 'merge' },
     { name: 'changeMe' }
@@ -26,15 +26,15 @@ module.exports = {
   // 消息步骤
   messages: {
     type: '请选择提交类型:',
-    scope: '选择一个scope (可选):',
-    customScope: '模块名称 (可选):',
+    scope: '本次commit的修改影响范围 (可选):',
+    // customScope: '模块名称 (可选):',
     subject: '请简要描述提交(必填):\n',
     body: '请输入详细描述(可选):\n',
     breaking: '列出任何 BREAKING CHANGES (可选):\n',
     footer: '请输入要关闭的issue(可选):\n',
     confirmCommit: '确认使用以上信息提交？(y/n/e/h)'
   },
-  allowCustomScopes: true,
+  // allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix'],
   // 跳过问题
   // skipQuestions: ['body', 'footer'],
