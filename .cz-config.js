@@ -18,7 +18,7 @@ module.exports = {
   ],
 
   scopes: [
-    { name: 'empty' },
+    { name: '' },
     { name: 'lang' },
     { name: 'merge' },
     { name: 'changeMe' }
