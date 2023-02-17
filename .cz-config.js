@@ -17,20 +17,14 @@ module.exports = {
     { value: 'ci', name: '👷 ci:    更改为我们的CI配置文件和脚本' }
   ],
 
-  // scopes: [
-  //   { name: '' },
-  //   { name: 'lang' },
-  //   { name: 'merge' },
-  //   { name: 'changeMe' }
-  // ],
   // 消息步骤
   messages: {
-    type: '请选择提交类型(必填)',
-    customScope: '请输入文件修改范围(可选)',
-    subject: '请简要描述提交(必填)',
-    body: '请输入详细描述(可选)',
-    breaking: '列出任何BREAKING CHANGES(可选)',
-    footer: '请输入要关闭的issue(可选)',
+    type: '请选择提交类型(必填):',
+    customScope: '请输入文件修改范围(可选):',
+    subject: '请简要描述提交(必填):',
+    body: '请输入详细描述(可选):',
+    breaking: '列出任何BREAKING CHANGES(可选):',
+    footer: '请输入要关闭的issue(可选):',
     confirmCommit: '确定提交此说明吗？'
   },
   allowCustomScopes: true,
