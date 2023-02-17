@@ -17,7 +17,7 @@ module.exports = {
     { value: 'ci', name: '🧰 ci:  更改为我们的CI配置文件和脚本' }
   ],
 
-  scopes: [],
+  scopes: [{ name: 'router' }],
   // 消息步骤
   messages: {
     type: '请选择提交类型(必填):',
